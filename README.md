@@ -27,7 +27,7 @@ git clone https://github.com/rrrrrredy/lobster-guard.git ~/.openclaw/skills/lobs
 
 ## Usage
 
-Trigger by mentioning: `安全`, `隐私`, `保护`, `身份验证`, `授权`, `龙虾安全`, `群聊隔离`, `agent安全`, `配置安全规则`
+Trigger by mentioning: `安全`, `隐私`, `保护`, `防护`, `身份验证`, `授权`, `龙虾安全`, `群聊隔离`, `agent安全`, `配置安全规则`
 
 **Setup:**
 1. Find your owner user ID from OpenClaw inbound metadata (`chat_id: "user:12345678"`)
