@@ -15,6 +15,20 @@ description: Use when configuring or reviewing AI agent identity, owner-verifica
 消息到达 → 身份三级判定 → 按等级执行（或拒绝）
 ```
 
+## 输入 / 输出契约
+
+必需输入：目标平台的系统元数据字段、owner 的稳定 user ID、需要写入的 SOUL.md 或 AGENTS.md 路径。
+
+固定输出：
+
+- 身份判定规则摘要；
+- 需要粘贴或写入的配置片段；
+- 已保护的敏感操作清单；
+- 未配置或需要人工确认的缺口；
+- 写入成功后的验证步骤。
+
+不输出 owner 的私人信息、内部资源路径、真实 token、cookie、验证码、登录态或攻击面细节。
+
 ## Quick Start（3 步）
 
 **1. 找到owner 的 user ID**
