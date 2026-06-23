@@ -1,8 +1,6 @@
 ---
 name: lobster-guard
-version: 4.0.0
-description: "AI Agent（龙虾）身份安全守卫，防止非 owner冒用身份、泄露隐私。适合群聊或多人场景；单用户私聊不需要主动安装（SOUL.md 默认含等效规则）。触发词：安全、隐私、保护、身份验证、授权、龙虾安全、防护、群聊隔离、agent安全、配置安全规则。不适用：系统整体安全扫描（请用 skill-security-guard）；Skill 代码安全审计（请用 skill-security-guard）。"
-tags: [security, identity, group-chat, soul-md, prompt-injection]
+description: Use when configuring or reviewing AI agent identity, owner-verification, group-chat isolation, privacy protection, prompt-injection resistance, or sensitive-action refusal rules. Trigger for lobster guard, identity security, owner impersonation, SOUL.md/AGENTS.md safety snippets, and group chat protection. Not for general skill code security audits; use skill-security-guard for that.
 ---
 
 # 龙虾安全守卫 4.0.0
